@@ -128,22 +128,21 @@ button{
        }
     
        .main-1{
-        width: 100%;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        z-index: 3;
+           width: 100%;
+           position: static;
+           flex-direction: column;
+           align-items: flex-start;
+           
        }
 
-       .star{
+       /* .star{
         position: absolute;
         width: 100px;
         left: 200px;
         top: 20px;
         z-index: 0;
        }
-    
+     */
        .main-1 p{
         font-family: 'Epilogue';
         font-style: normal;
