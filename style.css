@@ -368,7 +368,7 @@ button{
      gap: 20px;
 }
 
-.work-1 p{
+.sub-disc{
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
@@ -379,7 +379,7 @@ button{
     color: #EF6D58;
 }
 
-.work-1 h3{
+.sub-h3{
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 800;
@@ -388,7 +388,7 @@ button{
     color: #391400;
 }
 
-.work-1 span{
+.sub-deet{
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
@@ -543,6 +543,10 @@ button{
    .how-work{
         grid-template-columns: 1fr 1fr;
    }
+
+
+
+
 
 
 
