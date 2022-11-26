@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Caudex&family=Cinzel&family=EB+Garamond&family=Epilogue&family=Kaushan+Script&family=Nanum+Myeongjo&family=Open+Sans:wght@300&family=Outfit:wght@200&family=Paytone+One&family=Poppins:wght@100;300;700&family=Rajdhani:wght@300&family=Secular+One&family=Space+Grotesk&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Caudex&family=Cinzel&family=EB+Garamond&family=Epilogue:wght@400;800&family=Kaushan+Script&family=Nanum+Myeongjo&family=Open+Sans:wght@300&family=Outfit:wght@200&family=Paytone+One&family=Poppins:wght@100;300;700&family=Rajdhani:wght@300&family=Secular+One&family=Space+Grotesk&family=Teko:wght@300&display=swap');
 
 *{
     padding: 0;
@@ -124,6 +124,7 @@ button{
         flex-direction: column-reverse;
         background-color:rgb(40,41,62);
         padding-top:200px ;
+        padding: 60px 20px;
        }
     
        .main-1{
@@ -140,7 +141,7 @@ button{
         width: 100px;
         left: 200px;
         top: 20px;
-        z-index: 1;
+        z-index: 0;
        }
     
        .main-1 p{
@@ -181,7 +182,8 @@ button{
         background-color: transparent;
         color: white;
         border: none;
-        font-size: 16px;
+        border-radius: 5px;
+        font-size: 12px;
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 400;
@@ -200,7 +202,38 @@ button{
         justify-content: center;
        }
        .main-2 img{
-        width: 70%;
+        width: 80%;
+       }
+
+       .quote{
+        width: 100%;
+        display: flex;
+        padding: 0 10px;
+        gap: 10px;
+        background-color: rgb(40,41,62);
+       }
+
+       .accredit{
+        display: flex;
+        flex-direction: column;
+       }
+    
+       .accredit span{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color:rgba(255, 255, 255, 0.64); ;
+       }
+    
+       .accredit p{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: white;
        }
     
 
@@ -218,8 +251,9 @@ button{
     }
 
     .padder{
-        padding: 80px 90px; 
+        padding: 20px 90px; 
     }
+    
 
     .logo-cont img{
         width:150px;
@@ -260,14 +294,110 @@ button{
    /* ========================HERO================= */
 
    .hero{
-    flex-direction: row;
+        flex-direction: row;
+        padding: 80px 90px;
    }
 
 
 
    .main-1 h1{
-    font-size: 72px;
+        font-size: 65px;
    }
+
+   .quote{
+        padding: 0 90px;
+   }
+
+   .sponsors{
+       height: 100px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-between;
+       background-color: rgb(253,240,233);
+       border-bottom:solid 1px #391400 ;
+   }
+
+   .about-us{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       width: 100%;
+     
+       background-color: rgb(253,240,233);
+    }
+    
+   .about-1{
+       width: 100%;
+    }
+
+   .about-1 img{
+       width: 80%;
+    }
+
+   .about-2{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       gap: 20px;
+   }
+
+   .about-2 p{
+       font-family: 'Epilogue';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 32px;
+       letter-spacing: 3px;
+       text-transform: uppercase;
+       color: #EF6D58;
+   }
+
+   .about-2 h2{
+       font-family: 'Epilogue';
+       font-style: normal;
+       font-weight: 800;
+       font-size: 56px;
+       line-height: 64px;
+       letter-spacing: -1px;    
+       color: #391400;
+   }
+
+   .about-2 h3{
+       font-family: 'Epilogue';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 20px;
+       line-height: 32px;
+       color: #391400;
+   }
+
+   .about-2 span{
+       font-style: normal;
+       font-family: 'Epilogue';
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 32px;
+       color: rgba(57, 20, 0, 0.64);
+   }
+
+   .about-2 button{
+        background-color: white;
+        border: none;
+        font-style: normal;
+        font-family: 'Epilogue';
+        font-weight: 800;
+        color: #391400;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 2px #391400;
+        
+   }
+
+
+
+
+
 
 }
 
@@ -277,6 +407,13 @@ button{
     }
 
     .padder{
+        padding: 20px 150px;
+    }
+
+    .hero{
         padding: 80px 150px;
     }
+
+    .quote{
+        padding: 0 150px;};
 }
