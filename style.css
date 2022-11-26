@@ -235,7 +235,7 @@ button{
         line-height: 32px;
         color: white;
        }
-
+/* ===============================SPONSORS================================= */
        .sponsors{
         height: 300px;
         display: grid;
@@ -245,7 +245,7 @@ button{
         background-color: rgb(253,240,233);
         border-bottom:solid 1px #391400 ;
     }
- 
+ /* ========================================ABOUT================================== */
     .about-us{
         display: grid;
         grid-template-columns:1fr;
@@ -354,8 +354,91 @@ button{
    color: #391400;
 }
 
- 
- 
+ /* =====================How we work============================ */
+ .how-work{
+    display: grid;
+    grid-template-columns:1fr;
+    background-color: rgb(253,240,233);
+}
+
+.work-1{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 20px;
+}
+
+.work-1 p{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+}
+
+.work-1 h3{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #391400;
+}
+
+.work-1 span{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+ }
+
+.work-1 button{
+    background-color: transparent;
+    border: none;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    color: #391400;
+
+}
+
+.work-2{
+    display: flex;
+    flex-direction: column;
+ }
+
+.work-item{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 10px;
+}
+
+.work-item h1{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    color: #391400;
+}
+
+.work-item span{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    color: #391400;
+}
+
     
 
 }
@@ -372,7 +455,7 @@ button{
     }
 
     .padder{
-        padding: 20px 90px; 
+        padding: 30px 90px; 
     }
     
 
@@ -446,19 +529,20 @@ button{
    }
 
    .stats{
-    grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
    }
 
    .stat-item p{
-    font-size: 40;
+        font-size: 40;
    }
 
    .stat-item span{
-    font-size: 20px;
+        font-size: 20px;
    }
 
-
-
+   .how-work{
+        grid-template-columns: 1fr 1fr;
+   }
 
 
 
@@ -470,7 +554,7 @@ button{
     }
 
     .padder{
-        padding: 20px 150px;
+        padding: 30px 150px;
     }
 
     .hero{
