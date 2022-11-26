@@ -105,17 +105,17 @@ button{
 
 
     /* ==============================slideshow========================== */
- .show{
-    left: 0%;
-    opacity: 1;
-    display: flex;
- }
+    .show{
+        opacity: 1;
+        display: flex;
+        left: 0%;
+    }
 
- .hide{
-    left: 100%;
-    opacity: 0;
-    display: none;
- }
+    .hide{
+        left: 100%;
+        opacity: 0;
+        display: none;
+    }
     /* ================================slideshow end======================== */
   
     /* ============================HERO================================= */
@@ -127,13 +127,12 @@ button{
         padding: 60px 20px;
        }
     
-       .main-1{
-           width: 100%;
-           position: static;
-           flex-direction: column;
-           align-items: flex-start;
-           
-       }
+    .main-1{
+        width: 100%;
+        position: static;
+        flex-direction: column;
+        align-items: flex-start;       
+    }
 
        /* .star{
         position: absolute;
@@ -143,16 +142,16 @@ button{
         z-index: 0;
        }
      */
-       .main-1 p{
+    .main-1 p{
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 32px;
         color:#EF6D58;
-       }
+    }
     
-       .main-1 h1{
+    .main-1 h1{
         color: white;
         font-family: 'Epilogue';
         font-style: normal;
@@ -160,23 +159,23 @@ button{
         font-size: 65px;
         text-transform: capitalize;
         z-index: 2;
-       }
+    }
     
-       .main-1 span{
+    .main-1 span{
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 32px;
         color:rgba(255, 255, 255, 0.64);
-       }
+    }
     
-       .buttons{
+    .buttons{
         display: flex;
         flex-direction: row;
-       }
+    }
        
-       .main-1 button{
+    .main-1 button{
         padding: 7px 15px;
         background-color: transparent;
         color: white;
@@ -187,53 +186,53 @@ button{
         font-style: normal;
         font-weight: 400;
         transition: all 200ms linear;
-       }
+    }
     
-       .main-1 button:hover{
+    .main-1 button:hover{
         background-color: #EF6D58;
-       }
+    }
     
     
-       .main-2{
+    .main-2{
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-       }
-       .main-2 img{
+    }
+    .main-2 img{
         width: 80%;
-       }
+    }
 
-       .quote{
+    .quote{
         width: 100%;
         display: flex;
         padding: 0 10px;
         gap: 10px;
         background-color: rgb(40,41,62);
-       }
+    }
 
-       .accredit{
+    .accredit{
         display: flex;
         flex-direction: column;
-       }
+    }
     
-       .accredit span{
+    .accredit span{
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 32px;
         color:rgba(255, 255, 255, 0.64); ;
-       }
-    
-       .accredit p{
+    }
+        
+    .accredit p{
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 32px;
         color: white;
-       }
+    }
 /* ===============================SPONSORS================================= */
        .sponsors{
         height: 300px;
@@ -250,17 +249,17 @@ button{
         grid-template-columns:1fr;
         width: 100%;
         background-color: rgb(253,240,233);
-     }
+    }
      
     .about-1{
         width: 100%;
-     }
+    }
  
     .about-1 img{
         width: 80%;
      }
  
-    .about-2{
+    .disc-cont{
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -268,7 +267,7 @@ button{
         gap: 20px;
     }
  
-    .about-2 p{
+    .main-disc{
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 400;
@@ -279,7 +278,7 @@ button{
         color: #EF6D58;
     }
  
-    .about-2 h2{
+    .main-h2{
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 800;
@@ -289,7 +288,7 @@ button{
         color: #391400;
     }
  
-    .about-2 h3{
+    .main-h3{
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 400;
@@ -320,150 +319,159 @@ button{
     }
 
     
-   .stats{
-    background-color: rgb(253,240,233);
-    display: grid;
-    grid-template-columns:1fr;
-}
+    .stats{
+        background-color: rgb(253,240,233);
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    
+    .stat-item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border: solid 1px #391400;
+        padding: 10px 15px;
+        width: 100%;
+    }
 
-.stat-item{
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   border: solid 1px #391400;
-   padding: 10px 15px;
-}
+    .stat-item p{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 48px;
+        color: #391400;
+        font-family: 'Epilogue';
+    }
 
-.stat-item p{
-   font-family: 'Epilogue';
-   font-style: normal;
-   font-weight: 800;
-   font-size: 25px;
-   line-height: 48px;
-   color: #391400;
-}
-
-.stat-item span{
-   font-family: 'Epilogue';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 15px;
-   line-height: 32px;
-   color: #391400;
-}
+    .stat-item span{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 32px;
+        color: #391400;
+        font-family: 'Epilogue';
+    }
 
  /* =====================How we work============================ */
- .how-work{
-    display: grid;
-    grid-template-columns:1fr;
-    background-color: rgb(253,240,233);
-}
+    .how-work{
+         display: grid;
+         grid-template-columns:1fr;
+         background-color: rgb(253,240,233);
+    }
 
-.work-1{
-     display: flex;
-     flex-direction: column;
-     align-items: flex-start;
-     gap: 20px;
-}
+    
+    .sub-disc{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #EF6D58;
+    }
+    
+    .sub-h3{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        color: #391400;
+    }
 
-.sub-disc{
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #EF6D58;
-}
+    .sub-deet{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(57, 20, 0, 0.64);
+    }
 
-.sub-h3{
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 48px;
-    color: #391400;
-}
+    .work-1 button{
+        border: none;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        color: #391400;
+        background-color: transparent;
+    }
 
-.sub-deet{
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    color: rgba(57, 20, 0, 0.64);
- }
 
-.work-1 button{
-    background-color: transparent;
-    border: none;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 15px;
-    color: #391400;
 
-}
+    .work-item{
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        display: flex;
+    }
 
-.work-2{
-    display: flex;
-    flex-direction: column;
- }
+    .work-item h1{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 80px;
+        letter-spacing: -2px;
+        color: #391400;
+    }
 
-.work-item{
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     gap: 10px;
-}
-
-.work-item h1{
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 80px;
-    letter-spacing: -2px;
-    color: #391400;
-}
-
-.work-item span{
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 32px;
-    color: #391400;
-}
+    .work-item span{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 32px;
+        color: #391400;
+    }
 
 /* =================================Vdplay====================== */
 
-.vdplay{
-    display: grid;
-    grid-template-columns:1fr;
-    background-color: rgb(253,240,233);
-}
+    .vdplay{
+        display: grid;
+        grid-template-columns:1fr;
+        background-color: rgb(253,240,233);
+    }
+        
+    .vdplay-1{
+        width: 100%;
+    }
 
-.vdplay-1{
-    width: 100%;
-}
+    .vdplay-1 img{
+        width: 80%;
+    }
+    
 
-.vdplay-1 img{
-    width: 80%;
-}
+/* =======================Feaatures=================================== */
+    .features{
+        display: grid;
+        grid-template-columns:1fr;
+        background-color: rgb(253,240,233);
+    }
+    
+    .feature-2{
+        width: 100%;
+    }
 
-.vdplay-2{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-}
-
+    .feature-2 img{
+        width:80%;
+    }
 
     
+    .feature-item{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .icon{
+        color: #EF6D58;
+    }
+
+    
+
 
 }
 
@@ -571,7 +579,18 @@ button{
    .vdplay{
         display: grid;
         grid-template-columns: 1fr 1fr;
-}
+    }
+
+    .features{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+
+
+
+
+
 
 }
 
