@@ -11,7 +11,7 @@ button{
 @media (min-width:300px){
     header{
         position: relative;
-        background-color: rgb(45, 5, 90);
+        background-color:rgb(40,41,62);
         width: 100%;
         display: grid;
         grid-template-columns:1fr;
@@ -120,14 +120,23 @@ button{
     .hero{
         display:flex;
         flex-direction: column-reverse;
-        background-color: rgb(45, 5, 90);
+        background-color:rgb(40,41,62);
        }
     
        .main-1{
         width: 100%;
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+       }
+
+       .star{
+        position: absolute;
+        width: 100px;
+        left: 200px;
+        top: 20px;
+        z-index: 1;
        }
     
        .main-1 p{
@@ -146,6 +155,7 @@ button{
         font-weight: 800;
         font-size: 65px;
         text-transform: capitalize;
+        z-index: 2;
        }
     
        .main-1 span{
@@ -198,9 +208,6 @@ button{
     /* ====================================================NAVIGATION==================================================== */
 
     header{
-        background-color: rgb(45, 5, 90);
-        width: 100%;
-        display: grid;
         grid-template-columns: 0.4fr 1fr;
         align-items: center;
     }
@@ -250,6 +257,8 @@ button{
    .hero{
     flex-direction: row;
    }
+
+
 
    .main-1 h1{
     font-size: 72px;
