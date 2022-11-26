@@ -200,8 +200,8 @@ button{
         justify-content: center;
        }
        .main-2 img{
-        width: 80%;
-    }
+        width: 70%;
+       }
     
 
 }
@@ -236,7 +236,7 @@ button{
         flex-direction: row;
         left: 0;
         justify-content:space-around;
-        height: 50px;
+        height: 20px;
     }
 
     .menu-container i{
