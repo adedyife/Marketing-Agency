@@ -439,6 +439,27 @@ button{
     color: #391400;
 }
 
+/* =================================Vdplay====================== */
+
+.vdplay{
+    display: grid;
+    grid-template-columns:1fr;
+    background-color: rgb(253,240,233);
+}
+
+.vdplay-1{
+    width: 100%;
+}
+
+.vdplay-1 img{
+width: 80%;
+}
+
+.vdplay-2{
+width: 100%;
+}
+
+
     
 
 }
@@ -544,11 +565,10 @@ button{
         grid-template-columns: 1fr 1fr;
    }
 
-
-
-
-
-
+   .vdplay{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
 
 }
 
@@ -566,5 +586,6 @@ button{
     }
 
     .quote{
-        padding: 0 150px;};
+        padding: 0 150px;
+    }
 }
