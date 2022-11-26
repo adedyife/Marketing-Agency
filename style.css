@@ -317,9 +317,43 @@ button{
          color: #391400;
          padding: 10px 20px;
          border-radius: 5px;
-         box-shadow: 0 0 2px #391400;
-         
+         box-shadow: 0 0 2px #391400;      
     }
+
+    
+   .stats{
+    background-color: rgb(253,240,233);
+    display: grid;
+    grid-template-columns:1fr;
+}
+
+.stat-item{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   border: solid 1px #391400;
+   padding: 10px 15px;
+}
+
+.stat-item p{
+   font-family: 'Epilogue';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 25px;
+   line-height: 48px;
+   color: #391400;
+}
+
+.stat-item span{
+   font-family: 'Epilogue';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 32px;
+   color: #391400;
+}
+
  
  
     
@@ -396,19 +430,31 @@ button{
    }
 
    .sponsors{
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+       justify-content: space-between;
+       height: 100px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
 }
 
    .about-us{
-    grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
    }
 
    .about-2 h2{
-    font-size: 56;
+        font-size: 56;
+   }
+
+   .stats{
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+
+   .stat-item p{
+    font-size: 40;
+   }
+
+   .stat-item span{
+    font-size: 20px;
    }
 
 
