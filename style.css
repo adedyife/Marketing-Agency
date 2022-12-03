@@ -11,23 +11,23 @@ button{
 @media (min-width:300px){
     header{
         position: fixed;
-        padding: 10px 20px;
         background-color:rgb(40,41,62);
+        padding: 10px 20px;
         width: 100%;
         display: grid;
         grid-template-columns:1fr;
         align-items: center;
     } 
-
+    
     .padder{
         padding: 10px 20px;
     }
-    
+
     .logo-cont{
-        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between ;
+        display: flex;
     }
 
     .logo-cont img{
@@ -389,7 +389,7 @@ button{
         color: rgba(57, 20, 0, 0.64);
     }
 
-    .work-1 button{
+    .sub-button{
         border: none;
         font-family: 'Epilogue';
         font-style: normal;
@@ -418,7 +418,7 @@ button{
         color: #391400;
     }
 
-    .work-item span{
+    .main-span{
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 700;
@@ -469,6 +469,43 @@ button{
     .icon{
         color: #EF6D58;
     }
+
+    
+    .sub-feature{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: rgb(253,240,233); ;
+    }
+
+    .subf-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+
+    .sub-featitem{
+        display: flex;
+        flex-direction: column;
+        padding:70px 25px 15px 25px;
+        gap: 15px;
+    }
+
+   .sub-featitem:first-child{
+        background-color: white;
+   }
+
+   .sub-featitem:last-child{
+        border: solid 1px  #391400; ;
+   }
+
+    .sub-featitem .icon {
+        font-size: 50px;
+    }
+
+    
+
+
 
     
 
@@ -534,8 +571,6 @@ button{
         padding: 80px 90px;
    }
 
-
-
    .main-1 h1{
         font-size: 65px;
    }
@@ -585,12 +620,14 @@ button{
         grid-template-columns: 1fr 1fr;
     }
 
+    .sub-feature{
+        grid-template-columns: 0.8fr 1.2fr;
+    }
+
     
-
-
-
-
-
+    .subf-cont{
+        flex-direction: row;
+    }
 
 }
 
