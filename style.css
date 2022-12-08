@@ -540,6 +540,7 @@ button{
     /* ===============================Portfolio===================================*/
 
     .portfolio{
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -547,7 +548,7 @@ button{
         background-color:rgb(40,41,62);
     }
 
-    .portfolio h2{
+    .white-h2{
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 800;
@@ -677,6 +678,126 @@ button{
         color:rgb(40,41,62);;
 
     }
+
+    /* ====================================Events==================================== */
+
+    
+    .event{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:rgb(40,41,62);
+    }
+
+    .event-cont{
+        width: 100%;
+        display:grid;
+        grid-template-columns:1fr;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .event-list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border: solid .4px rgba(255, 255, 255, 0.64);
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .event-item{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        
+    }
+
+    .event-item:first-child{
+        border-bottom:1px solid rgba(255, 255, 255, 0.64) ;
+    }
+
+    .event-time{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        
+        
+    }
+
+    .date-h2{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 60px;
+        /* line-height: 80px;   */
+        letter-spacing: -2px;
+        color: #FFFFFF;
+    }
+
+    .date-span{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    .time-span{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 32px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .event-h3{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    .event-span{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 32px;
+        color: rgba(255, 255, 255, 0.64);
+    }
+
+    .event-item button{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 32px;
+        border: solid 1px rgba(255, 255, 255, 0.64);
+        border-radius: 3px;
+        background-color: transparent;
+        padding: 7px 20px;
+        color: #FFFFFF;
+        transition: all 200ms linear;
+    }
+
+    .event-item button:hover{
+        background-color: white;
+        color: rgb(40,41,62);
+    }
+
 
 
 
@@ -864,6 +985,10 @@ button{
         background-size: cover;
     }
 
+
+    .event-cont{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
 }
 
